@@ -11,7 +11,32 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>{{project-name}}</h1>
+  <main class="container">
+    <h1>{{project-name}}</h1>
+
+    <section>
+      <h2>Buttons</h2>
+      <div class="btn-row">
+        <button class="btn btn--primary">Save</button>
+        <button class="btn btn--secondary">Secondary</button>
+        <button class="btn btn--accent">Accent</button>
+        <button class="btn btn--dark">Dark</button>
+        <button class="btn btn--light">Light</button>
+      </div>
+      <div class="btn-row">
+        <button class="btn btn--danger">Delete</button>
+        <button class="btn btn--success">Confirm</button>
+        <button class="btn btn--warning">Warning</button>
+      </div>
+      <div class="btn-row">
+        <button class="btn btn--primary btn--outline">Outline</button>
+        <button class="btn btn--primary btn--sm">Small</button>
+        <button class="btn btn--ghost">Ghost</button>
+        <button class="btn btn--dark btn--outline">Dark outline</button>
+      </div>
+    </section>
+  </main>
+
   <script type="module" src="main.js"></script>
 </body>
 </html>
