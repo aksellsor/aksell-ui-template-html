@@ -29,7 +29,7 @@ Add more `<link>` tags in `index.html` head as needed.
 ## @aksell/ui Standalone JS Components
 Available via CDN as ES modules:
 - `https://unpkg.com/@aksell/ui/src/components/PillArrowBtn/standalone/PillArrowBtn.standalone.js`
-- `https://unpkg.com/@aksell/ui/src/components/Toast/toast.js`
+- `https://unpkg.com/@aksell/ui/src/components/Toast/standalone/toast.standalone.js`
 
 Import in `main.js`:
 ```js
@@ -48,4 +48,5 @@ After importing, use the web component in HTML:
 - Don't add node_modules or npm install unless the developer asks
 - Don't add a bundler
 - Don't copy CSS from @aksell/ui into this project
-- Don't add a CSS framework
+- Don't add Tailwind, Bootstrap, or framework-specific utility classes
+- Don't add Aeonik font files unless the project has a valid license

@@ -22,6 +22,7 @@ unless the developer explicitly requests it.
 Do NOT add Tailwind, Bootstrap, or any other CSS framework.
 All base styles (colors, typography, buttons, resets) come from @aksell/ui via CDN.
 Project-specific styles go in `style.css` only.
+Do not add Aeonik font files unless this project has a valid license; licensed font-face declarations belong in project CSS.
 
 ## Rule 6 — Use CDN Imports, Not Copied Styles
 Do not copy-paste CSS from @aksell/ui into this project.

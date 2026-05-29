@@ -2,7 +2,10 @@
   "name": "{{project-name}}",
   "version": "0.1.0",
   "type": "module",
+  "scripts": {
+    "check": "node scripts/check-aksell-template.mjs"
+  },
   "dependencies": {
-    "@aksell/ui": "^3.0.4"
+    "@aksell/ui": "^3.0.5"
   }
 }
