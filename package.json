@@ -6,6 +6,6 @@
     "check": "node scripts/check-aksell-template.mjs"
   },
   "dependencies": {
-    "@aksell/ui": "^3.0.5"
+    "@aksell/ui": "^3.0.6"
   }
 }
