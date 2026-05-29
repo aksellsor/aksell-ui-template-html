@@ -3,6 +3,6 @@
   "version": "0.1.0",
   "type": "module",
   "dependencies": {
-    "@aksell/ui": "^3.0.1"
+    "@aksell/ui": "^3.0.2"
   }
 }
