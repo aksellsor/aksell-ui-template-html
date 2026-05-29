@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="no">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,9 +8,11 @@
   <link rel="stylesheet" href="https://unpkg.com/@aksell/ui/src/styles/resets.css" />
   <link rel="stylesheet" href="https://unpkg.com/@aksell/ui/src/styles/colors.css" />
   <link rel="stylesheet" href="https://unpkg.com/@aksell/ui/src/styles/typography.css" />
-  <link rel="stylesheet" href="https://unpkg.com/@aksell/ui/src/styles/buttons.css" />
+  <link rel="stylesheet" href="https://unpkg.com/@aksell/ui/src/styles/native.css" />
+  <link rel="stylesheet" href="https://unpkg.com/@aksell/ui/src/styles/btn.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <main class="container">
     <h1>{{project-name}}</h1>
@@ -17,26 +20,66 @@
     <section>
       <h2>Buttons</h2>
       <div class="btn-row">
-        <button class="btn btn--primary">Save</button>
+        <button class="btn btn--primary">Primary</button>
         <button class="btn btn--secondary">Secondary</button>
         <button class="btn btn--accent">Accent</button>
         <button class="btn btn--dark">Dark</button>
         <button class="btn btn--light">Light</button>
+        <button class="btn btn--contrast">Contrast</button>
       </div>
       <div class="btn-row">
-        <button class="btn btn--danger">Delete</button>
-        <button class="btn btn--success">Confirm</button>
+        <button class="btn btn--danger">Danger</button>
+        <button class="btn btn--success">Success</button>
         <button class="btn btn--warning">Warning</button>
       </div>
       <div class="btn-row">
         <button class="btn btn--primary btn--outline">Outline</button>
         <button class="btn btn--primary btn--sm">Small</button>
         <button class="btn btn--ghost">Ghost</button>
-        <button class="btn btn--dark btn--outline">Dark outline</button>
       </div>
+    </section>
+
+    <section>
+      <h2>Typography</h2>
+      <p>The quick brown fox <strong>jumps</strong> over the <em>lazy</em> dog. <a href="#">A link</a>.</p>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+    </section>
+
+    <section>
+      <h2>Form elements</h2>
+      <form onsubmit="event.preventDefault()">
+        <label for="text">Text</label>
+        <input type="text" id="text" name="text" placeholder="Text" />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email" autocomplete="email" />
+
+        <label for="select">Select</label>
+        <select id="select" name="select">
+          <option value="" selected>Select…</option>
+          <option>Option 1</option>
+          <option>Option 2</option>
+        </select>
+
+        <fieldset>
+          <legend><strong>Checkboxes</strong></legend>
+          <label for="checkbox-1">
+            <input type="checkbox" id="checkbox-1" name="checkbox-1" checked />
+            Option A
+          </label>
+          <label for="checkbox-2">
+            <input type="checkbox" id="checkbox-2" name="checkbox-2" />
+            Option B
+          </label>
+        </fieldset>
+
+        <button type="submit" class="btn btn--primary">Submit</button>
+      </form>
     </section>
   </main>
 
   <script type="module" src="main.js"></script>
 </body>
+
 </html>

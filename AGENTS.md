@@ -17,8 +17,8 @@ All available via `https://unpkg.com/@aksell/ui/src/styles/<file>`:
 - `resets.css`
 - `colors.css` — CSS custom properties for brand colors
 - `typography.css`
-- `buttons.css`
-- `forms.css`
+- `btn.css`
+- `native.css`
 - `utilities.css` — utility classes (spacing, display helpers)
 - `components/toast.css`
 - `components/pillarrowbtn.css`
